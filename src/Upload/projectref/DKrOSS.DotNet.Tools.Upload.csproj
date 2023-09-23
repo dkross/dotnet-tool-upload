@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../Upload.props" />
+
+  <ItemGroup>
+    <ProjectReference Include="../../../../dotnet-library/src/Core/DKrOSS.Core.csproj" />
+  </ItemGroup>
+
+</Project>

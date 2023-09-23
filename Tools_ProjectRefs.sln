@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Solution Items", "01 - Solution Items", "{B808A944-B8D2-4E62-8246-464C5420D060}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Solution.props = Solution.props
+		Solution.targets = Solution.targets
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Referenced Projects", "02 - Referenced Projects", "{4075351A-7927-4266-BE03-A1905C2B5269}"
+	ProjectSection(SolutionItems) = preProject
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Projects", "03 - Projects", "{E82F3E77-0057-49CF-89A6-1F18B6B0FA8A}"
+	ProjectSection(SolutionItems) = preProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DKrOSS.Core", "..\dotnet-library\src\Core\DKrOSS.Core.csproj", "{298DE9B8-1B06-4F48-A6F7-A2B6A4C4647B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DKrOSS.DotNet.Tools.Upload", "src\Upload\projectref\DKrOSS.DotNet.Tools.Upload.csproj", "{D3B8770F-A683-4570-90FE-571C6579197A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{298DE9B8-1B06-4F48-A6F7-A2B6A4C4647B} = {4075351A-7927-4266-BE03-A1905C2B5269}
+		{D3B8770F-A683-4570-90FE-571C6579197A} = {E82F3E77-0057-49CF-89A6-1F18B6B0FA8A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{298DE9B8-1B06-4F48-A6F7-A2B6A4C4647B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298DE9B8-1B06-4F48-A6F7-A2B6A4C4647B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298DE9B8-1B06-4F48-A6F7-A2B6A4C4647B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298DE9B8-1B06-4F48-A6F7-A2B6A4C4647B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B8770F-A683-4570-90FE-571C6579197A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B8770F-A683-4570-90FE-571C6579197A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B8770F-A683-4570-90FE-571C6579197A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B8770F-A683-4570-90FE-571C6579197A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

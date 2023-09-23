@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../Upload.props" />
+
+  <ItemGroup>
+    <Compile Include="../projectref/*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DKrOSS.Core" Version="0.1.0-preview.0" />
+  </ItemGroup>
+
+</Project>
